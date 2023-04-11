@@ -157,6 +157,8 @@ body {
 }
 
 .musicfield__music1__thumbnail__icon {
+  background-image: url(thumbnail/you\ were\ beautiful.jpg);
+  background-size: contain;
   margin-left: 8px;
   width: 50px;
   height: 50px;
@@ -196,6 +198,8 @@ body {
 }
 
 .musicfield__music2__thumbnail__icon {
+  background-image: url(thumbnail/shadow.jpg);
+  background-size: contain;
   margin-left: 8px;
   width: 50px;
   height: 50px;
@@ -234,6 +238,8 @@ body {
 }
 
 .musicfield__music3__thumbnail__icon {
+  background-image: url(thumbnail/sing\ street.jpg);
+  background-size: contain;
   margin-left: 8px;
   width: 50px;
   height: 50px;
@@ -274,6 +280,8 @@ body {
 }
 
 .musicfield__music4__thumbnail__icon {
+  background-image: url(thumbnail/stay\ this\ way.jpg);
+  background-size: contain;
   margin-left: 8px;
   width: 50px;
   height: 50px;
