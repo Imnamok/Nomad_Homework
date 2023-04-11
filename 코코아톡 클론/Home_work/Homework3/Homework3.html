@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Best Colors</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      html {
+        display: flex;
+        justify-content: center;
+        background-color: gainsboro;
+      }
+      body {
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+        height: 100vh;
+      }
+
+      span {
+        width: 1000px;
+        font-size: 50px;
+        text-align: center;
+        font-family: "Elephant";
+      }
+
+      div {
+        font-family: "Elephant";
+        height: 380px;
+        width: 200px;
+        background-color: white;
+      }
+
+      .bar {
+        height: 20px;
+        width: 190px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+      }
+
+      .rectangle {
+        height: 210px;
+        width: 190px;
+        position: relative;
+        left: 5px;
+        top: 75px;
+      }
+
+      .color {
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+      }
+
+      .colorcode {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+      }
+      h1 div div:nth-child(1) {
+        background-color: tomato;
+      }
+
+      h1 div div:nth-child(4) {
+        background-color: tomato;
+      }
+
+      h2 div div:nth-child(1) {
+        background-color: teal;
+      }
+
+      h2 div div:nth-child(4) {
+        background-color: teal;
+      }
+
+      h3 div div:nth-child(1) {
+        background-color: burlywood;
+      }
+      h3 div div:nth-child(4) {
+        background-color: burlywood;
+      }
+
+      h4 div div:nth-child(1) {
+        background-color: thistle;
+      }
+
+      h4 div div:nth-child(4) {
+        background-color: thistle;
+      }
+    </style>
+  </head>
+  <span>The Best Colors</span>
+  <body>
+    <h1>
+      <div>
+        <div class="bar"></div>
+        <div class="color">Tomato</div>
+        <div class="colorcode">#FF6347</div>
+        <div class="rectangle"></div>
+      </div>
+    </h1>
+    <h2>
+      <div>
+        <div class="bar"></div>
+        <div class="color">Teal</div>
+        <div class="colorcode">#008080</div>
+        <div class="rectangle"></div>
+      </div>
+    </h2>
+
+    <h3>
+      <div>
+        <div class="bar"></div>
+        <div class="color">Burlywood</div>
+        <div class="colorcode">#DEB887</div>
+        <div class="rectangle"></div>
+      </div>
+    </h3>
+    <h4>
+      <div>
+        <div class="bar"></div>
+        <div class="color">Thistle</div>
+        <div class="colorcode">#D7BFD7</div>
+        <div class="rectangle"></div>
+      </div>
+    </h4>
+  </body>
+</html>

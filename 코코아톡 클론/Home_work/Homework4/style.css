@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  background-color: #6bbcbe;
+}
+
+@keyframes RotateCircle {
+  50% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+.circlegroup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  animation: RotateCircle 1s infinite;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+@keyframes RotateRectangle {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50%,
+  100% {
+    transform: none;
+  }
+}
+.rectanglegroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.rectangle {
+  width: 20px;
+  height: 80px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  animation: RotateRectangle 1s infinite;
+}
+.rectangle1 {
+  animation-delay: 0s;
+}
+.rectangle2 {
+  animation-delay: 0.1s;
+}
+
+.rectangle3 {
+  animation-delay: 0.2s;
+}
+.rectangle4 {
+  animation-delay: 0.3s;
+}
+.rectangle5 {
+  animation-delay: 0.4s;
+}
