@@ -1,0 +1,85 @@
+.Top_Adventures {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+
+.Top_Adventures__field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 230px;
+}
+
+.Top_Adventures__text {
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.Top_Adventures__books {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.Top_Adventures__cover1 {
+  background-image: url(/bookcover/modern.jpg);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 130px;
+  background-size: contain;
+  border-radius: 7px;
+  margin-right: 25px;
+}
+
+.Top_Adventures__cover2 {
+  background-image: url(/bookcover/cosmos.jpg);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 130px;
+  background-size: contain;
+  border-radius: 7px;
+  margin-right: 25px;
+}
+
+.Top_Adventures__cover3 {
+  background-image: url(/bookcover/jugle\ bok.jpg);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 130px;
+  background-size: contain;
+  border-radius: 7px;
+  margin-right: 25px;
+}
+
+.Top_Adventures__cover4 {
+  background-image: url(/bookcover/why\ mouth.png);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 130px;
+  background-size: contain;
+  border-radius: 7px;
+  margin-right: 25px;
+}
+
+.Top_Adventures__cover1 i {
+  margin: -25px 2px;
+}
+
+.Top_Adventures__cover2 i {
+  margin: -25px 2px;
+}
+
+.Top_Adventures__cover3 i {
+  margin: -25px 2px;
+}
+
+.Top_Adventures__cover4 i {
+  margin: -25px 2px;
+}

@@ -1,0 +1,97 @@
+.Book_of_the_day {
+  margin: 0px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Book_of_the_day__field {
+  width: 310px;
+  height: 230px;
+  position: relative;
+}
+
+.Book_of_the_day__text {
+  display: block;
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.Book_of_the_day__cover {
+  background-image: url(/bookcover/no\ fixed\ abobe.jpg);
+  width: 90px;
+  height: 140px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+}
+
+.Book_of_the_day__info {
+  position: absolute;
+  top: 48px;
+  left: 100px;
+}
+
+.Book_of_the_day__name {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Book_of_the_day__author {
+  font-weight: bold;
+  display: block;
+  opacity: 0.3;
+  margin-left: 3px;
+  margin-bottom: 10px;
+}
+
+.Book_of_the_day__info i {
+  margin: 0px 2px;
+  margin-bottom: 10px;
+}
+
+.Book_of_the_day__btns input[type="submit"] {
+  background-color: #f7f7f7;
+  height: 25px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  margin: 0px 3px;
+}
+
+.Book_of_the_day__btns2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.Book_of_the_day__btns2 input[type="submit"] {
+  background-color: var(--black);
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: -10px;
+}
+
+.Book_of_the_day__mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+}
+
+.Book_of_the_day__mark i {
+  margin-top: 10px;
+}

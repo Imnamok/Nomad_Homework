@@ -1,4 +1,27 @@
-@import url();
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Open+Sans:wght@300&display=swap");
+
+/* css */
 @import "top-interface.css";
 @import "variables.css";
 @import "reset.css";
+@import "search-bar.css";
+@import "book of the day.css";
+@import "top adventures.css";
+@import "popular authors.css";
+
+html {
+  width: 100vh;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: white;
+  width: 360px;
+  height: 800px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}

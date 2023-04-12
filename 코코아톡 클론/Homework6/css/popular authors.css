@@ -1,0 +1,46 @@
+.Popular_authors {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+
+.Popular_authors__field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 180px;
+  position: relative;
+}
+
+.Popular_authors__text {
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.Popular_authors__cover {
+  background-image: url(/bookcover/george2.jpg);
+  width: 100px;
+  height: 120px;
+  background-size: contain;
+  border-radius: 7px;
+}
+
+.Popular_authors__info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 45px;
+  left: 120px;
+}
+
+.Popular_authors__authors {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Popular_authors__authors__info {
+  font-size: 15px;
+  opacity: 0.3;
+}
