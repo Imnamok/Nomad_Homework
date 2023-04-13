@@ -1,0 +1,17 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?&family=Nunito:wght@300;400;700;800;900;1000&display=swap");
+
+/* css */
+@import "reset.css";
+@import "variables.css";
+@import "/css/components/album.css";
+@import "/css/components/controlbox.css";
+
+body {
+  background-color: beige;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}

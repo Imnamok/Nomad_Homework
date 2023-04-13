@@ -1,0 +1,162 @@
+.album {
+  background-color: white;
+  width: 340px;
+  height: 720px;
+  border-radius: 35px;
+}
+
+.album-icon-bar {
+  width: 100%;
+}
+
+.album-icon-bar__field {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 25px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.album-mainfield {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-mainfield__thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 35px;
+  box-shadow: 0px 8px 25px rgba(55, 189, 240, 0.5);
+  cursor: pointer;
+}
+
+.album-mainfield__title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.album-mainfield__singer {
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.btns__shuffle,
+.btns__heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 110px;
+  height: 40px;
+  margin: 0px 7px;
+  border-radius: 20px;
+  border: none;
+}
+
+.btns__shuffle {
+  background-color: var(--black);
+  color: white;
+  cursor: pointer;
+}
+
+.btns__heart {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.btns__heart i {
+  margin-right: 4px;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-field {
+  width: 100%;
+  height: 300px;
+}
+
+.music-list {
+  height: 90%;
+  padding: 5px 0px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.musics {
+  width: 320px;
+  justify-content: space-between;
+}
+
+.musics,
+.music-column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.music-column {
+  margin-left: 20px;
+}
+
+.musics i {
+  margin-right: 20px;
+}
+
+.music_thumbnail {
+  border-radius: 15px;
+  width: 55px;
+  height: 55px;
+  margin-left: 5px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.music-singer {
+  font-weight: 700;
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.music-name {
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.boxsize {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+.musics:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  transform: scale(1.01);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.musics:hover .music_thumbnail {
+  filter: brightness(75%);
+  transition: 0.3s ease-in-out;
+}
