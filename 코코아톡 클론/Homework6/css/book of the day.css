@@ -19,17 +19,16 @@
 
 .Book_of_the_day__cover {
   background-image: url(/bookcover/no\ fixed\ abobe.jpg);
-  width: 90px;
-  height: 140px;
+  width: 110px;
+  height: 160px;
   background-size: contain;
-  background-repeat: no-repeat;
   border-radius: 7px;
 }
 
 .Book_of_the_day__info {
   position: absolute;
   top: 48px;
-  left: 100px;
+  left: 120px;
 }
 
 .Book_of_the_day__name {

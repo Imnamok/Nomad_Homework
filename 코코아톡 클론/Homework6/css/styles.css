@@ -11,12 +11,11 @@
 @import "popular authors.css";
 
 html {
-  width: 100vh;
   height: 100vh;
   background-color: bisque;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 body {
   background-color: white;
