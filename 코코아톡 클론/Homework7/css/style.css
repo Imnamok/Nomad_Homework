@@ -5,13 +5,20 @@
 @import "reset.css";
 @import "variables.css";
 @import "/css/components/album.css";
-@import "/css/components/controlbox.css";
+@import "/css/components/bg.css";
 
 body {
   background-color: beige;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+.album,
+.bg {
+  margin: 0px 40px;
+  box-sizing: border-box;
 }

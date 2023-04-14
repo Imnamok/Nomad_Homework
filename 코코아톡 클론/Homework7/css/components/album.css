@@ -1,7 +1,7 @@
 .album {
   background-color: white;
   width: 340px;
-  height: 720px;
+  height: 735px;
   border-radius: 35px;
 }
 
@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 35px;
-  box-shadow: 0px 8px 25px rgba(55, 189, 240, 0.5);
+  box-shadow: 0px 10px 30px rgba(55, 189, 240, 0.7);
   cursor: pointer;
 }
 
@@ -89,11 +89,11 @@
 
 .music-field {
   width: 100%;
-  height: 300px;
+  height: 330px;
 }
 
 .music-list {
-  height: 90%;
+  height: 285px;
   padding: 5px 0px;
   overflow-y: scroll;
   display: flex;
@@ -103,7 +103,8 @@
 }
 
 .musics {
-  width: 320px;
+  height: 100%;
+  width: 90%;
   justify-content: space-between;
 }
 
@@ -114,7 +115,20 @@
 }
 
 .music-column {
+  height: 75px;
   margin-left: 20px;
+  position: relative;
+}
+
+.music-column img {
+  justify-content: center;
+  align-items: center;
+}
+
+.music-column i {
+  position: absolute;
+  margin-left: 22px;
+  visibility: hidden;
 }
 
 .musics i {
@@ -142,12 +156,6 @@
   margin-top: 7px;
 }
 
-.boxsize {
-  display: flex;
-  align-items: center;
-  height: 75px;
-}
-
 .musics:hover {
   transition: box-shadow 0.3s ease-in-out;
   transform: scale(1.01);
@@ -157,6 +165,57 @@
 }
 
 .musics:hover .music_thumbnail {
-  filter: brightness(75%);
+  filter: brightness(80%);
   transition: 0.3s ease-in-out;
+}
+
+.musics:hover .music-column i {
+  visibility: visible;
+}
+
+.controlbox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.controlbox-field {
+  position: absolute;
+  top: -30px;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controlbox-info {
+  color: white;
+  margin-left: 23px;
+}
+
+.controlbox-info__singer {
+  color: rgba(211, 211, 211, 0.8);
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.controlbox-info__name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.controlbox-control {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.controlbox-control i {
+  margin: 0px 13px;
+  cursor: pointer;
 }
