@@ -42,6 +42,11 @@
   margin: 0px 30px;
 }
 
+.bg-infofield__thumbs-flip:hover {
+  will-change: transform;
+  transform: rotateY(180deg) scale(1.15);
+}
+
 .bg-info {
   display: flex;
   flex-direction: column;
@@ -113,11 +118,4 @@ i {
 
 .bg-controlfield__play i {
   margin-left: 3px;
-}
-
-.bg-controlfield__iconbox i:first-child:hover,
-.bg-controlfield__iconbox i:nth-child(2):hover,
-.bg-controlfield__iconbox i:nth-child(4):hover,
-.bg-controlfield__iconbox i:last-child:hover {
-  transform: scale(1.1);
 }
