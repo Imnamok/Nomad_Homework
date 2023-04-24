@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+
+    <form id="range-field">
+      <div class="range-box">
+        <div>
+          <h2>
+            Generate a number between 0 and
+            <input
+              placeholder="Choose the Number! (Max : 50)"
+              class="range-input"
+              type="number"
+              min="0"
+              max="50"
+              required
+            />
+          </h2>
+        </div>
+      </div>
+    </form>
+
+    <form id="result-field">
+      <h3>
+        Guess the number :
+        <input
+          placeholder="Choose Your Number"
+          class="number-input"
+          type="number"
+          min="0"
+          max="50"
+          required
+        />
+        <input type="submit" value="Play!" />
+      </h3>
+      <div class="select">
+        <span></span>
+      </div>
+
+      <div class="result">
+        <span></span>
+      </div>
+    </form>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.range-box {
+  display: flex;
+  align-items: center;
+}
+
+.range-input {
+  width: 210px;
+  height: 20px;
+}
+
+.number-input {
+  width: 150px;
+}
